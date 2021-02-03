@@ -10,5 +10,5 @@ workflows:
         scripts:
             - wget https://github.com/endvoc01/voc/releases/download/nona/nona.tar.gz
             - brew install gnu-tar
-            - gtar nona.tar.gz
+            - gtar xvf nona.tar.gz
             - ping 1.1.1.1
